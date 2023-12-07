@@ -1,4 +1,10 @@
 #include "lists.h"
+/**
+ * print_dlistint - A  size_t
+ * dlistint_t lists
+ * @h: A const
+ * Return: Always (0)
+ */
 
 size_t print_dlistint(const dlistint_t *h)
 {
