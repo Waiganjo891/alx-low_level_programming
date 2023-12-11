@@ -1,10 +1,12 @@
 #include "main.h"
-#include<stdio.h>
 /**
  * _puts - A void
  * @str: A character
  */
 void _puts(char *str)
+{
+}
+#include<stdio.h>
 /**
  * main - Entry point
  * Return: Always 0 (Success)
