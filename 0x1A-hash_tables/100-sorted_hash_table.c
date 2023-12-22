@@ -79,14 +79,10 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 	shash_node_t  *bucket, *new_node;
 
 	if (!ht || !key || !*key || !value)
-	{
 		return (0);
-	}
 	valuecopy = strdup(value);
 	if (!valuecopy)
-	{
 		return (0);
-	}
 	index = key_index((const unsigned char *)key, ht->size);
 	bucket = ht->array[index];
 
@@ -108,9 +104,7 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 	}
 	keycopy = strdup(key);
 	if (!keycopy)
-	{
 		return (0);
-	}
 	new_node->key = keycopy;
 	new_node->value = valuecopy;
 	new_node->next = ht->array[index];
