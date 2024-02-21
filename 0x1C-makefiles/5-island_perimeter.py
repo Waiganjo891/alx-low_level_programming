@@ -2,6 +2,8 @@
 """
 Defines an island perimeter of the measuring
 """
+
+
 def island_perimeter(grid):
     """
     Grid represents water by Zero && land by One
